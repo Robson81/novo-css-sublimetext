@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DIV-Span</title>
+
+		<style>
+
+			#principal{background: grey;}
+			#topo{background: greenyellow;}
+			#conteudo{background: red;}
+			#rodape{background: darkblue; color: white;}
+			#assinatura{background:orange; margin: 10px; color: white;}
+			.produto{background:green; margin: 10px; color: white;}
+			.linha{color: white; width:50px }
+			
+		</style>
+	</head>
+	<body id="principal">
+		<div id="topo" align="center">
+			<img src="imagens/ufra-logo.png" >
+			<hr class="linha">
+			
+		</div>
+		
+
+		<div id="topo">
+			<hr class="linha">
+			<ul>
+				<li>Home</li>
+				<li>Produtos</li>
+				<li>Contatos</li>
+			</ul>
+		</div>
+
+		<div id="conteudo">
+			<div class="produto">
+				<img src="imagens/guitarra.jpg" width="10%">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p> 
+			</div>
+			<div class="produto">
+				produto2
+			</div>
+			<div class="produto">
+				produto3
+			</div>
+		</div>
+
+		<div id="rodape">todos os <span id="assinatura">direitos</span> reservador &copy;</div>
+		<span id="assinatura">Robson</span>
+		<span>Melo</span>
+
+
+
+	</body>
+</html>
